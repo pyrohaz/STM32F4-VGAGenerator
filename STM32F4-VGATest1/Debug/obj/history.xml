@@ -1,34 +1,34 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <history>
-   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O3 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace -I..\..\..\workspace\STM32F4-VGATest1\cmsis_lib\include -I..\..\..\workspace\STM32F4-VGATest1\cmsis_boot -I..\..\..\workspace\STM32F4-VGATest1\cmsis -I..\..\..\workspace\STM32F4-VGATest1\cmsis_lib -I..\..\.. -I..\..\..\workspace\STM32F4-VGATest1">
-      <target file="stm32f4xx_gpio.o" lastModified="14e15ebc8e2">
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O3 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\STM32F4-VGAGenerator\cmsis_boot -I..\..\..\workspace\STM32F4-VGAGenerator -I..\..\..\workspace\STM32F4-VGAGenerator\cmsis_lib -I..\..\..\workspace\STM32F4-VGAGenerator\cmsis -I..\..\..\workspace\STM32F4-VGAGenerator\cmsis_lib\include -I..\..\..\workspace -I..\..\..">
+      <target file="stm32f4xx_gpio.o" lastModified="14e15f16e32">
          <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="14e1388afa9"/>
       </target>
-      <target file="stm32f4xx_dma.o" lastModified="14e15ebcc57">
+      <target file="stm32f4xx_dma.o" lastModified="14e15f1717f">
          <source file="..\..\..\cmsis_lib\source\stm32f4xx_dma.c" lastModified="14e13c8b1b9"/>
       </target>
-      <target file="stm32f4xx_tim.o" lastModified="14e15ebd31d">
+      <target file="stm32f4xx_tim.o" lastModified="14e15f17780">
          <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="14e1388274f"/>
       </target>
-      <target file="system_stm32f4xx.o" lastModified="14e15ebca7b">
+      <target file="system_stm32f4xx.o" lastModified="14e15f16fb8">
          <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="14e13a6c11b"/>
       </target>
-      <target file="startup_stm32f4xx.o" lastModified="14e15ebbbb1">
+      <target file="startup_stm32f4xx.o" lastModified="14e15f1628b">
          <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="14e13a95ee3"/>
       </target>
-      <target file="main.o" lastModified="14e15ec8f3b">
-         <source file="..\..\..\main.c" lastModified="14e15c93d2d"/>
+      <target file="main.o" lastModified="14e15f16624">
+         <source file="..\..\..\main.c" lastModified="14e15ee2bcb"/>
       </target>
-      <target file="stm32f4xx_spi.o" lastModified="14e15ebce46">
+      <target file="stm32f4xx_spi.o" lastModified="14e15f17348">
          <source file="..\..\..\cmsis_lib\source\stm32f4xx_spi.c" lastModified="14e13881366"/>
       </target>
-      <target file="GFX.o" lastModified="14e15ebc6fe">
+      <target file="GFX.o" lastModified="14e15f16c7f">
          <source file="..\..\..\GFX.c" lastModified="14e142d5703"/>
       </target>
-      <target file="stm32f4xx_rcc.o" lastModified="14e15ebc28b">
+      <target file="stm32f4xx_rcc.o" lastModified="14e15f16844">
          <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="14e1388260f"/>
       </target>
-      <target file="misc.o" lastModified="14e15ebcfe1">
+      <target file="misc.o" lastModified="14e15f174d5">
          <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="14e1393f642"/>
       </target>
    </processor>
