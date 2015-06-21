@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="4.4.1 -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=STM32F4-VGATest1.map -O3 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\STM32F4-VGATest1 -TC:\CooCox\CoIDE\configuration\ProgramData\STM32F4-VGATest1/arm-gcc-link.ld -g">
+      <target file="STM32F4-VGATest1.elf" lastModified="14e15ec933f">
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="14e15ebbbb1"/>
+         <source file="..\obj\main.o" lastModified="14e15ec8f3b"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="14e15ebc28b"/>
+         <source file="..\obj\GFX.o" lastModified="14e15ebc6fe"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="14e15ebc8e2"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="14e15ebca7b"/>
+         <source file="..\obj\stm32f4xx_dma.o" lastModified="14e15ebcc57"/>
+         <source file="..\obj\stm32f4xx_spi.o" lastModified="14e15ebce46"/>
+         <source file="..\obj\misc.o" lastModified="14e15ebcfe1"/>
+         <source file="..\obj\stm32f4xx_tim.o" lastModified="14e15ebd31d"/>
+      </target>
+   </processor>
+</history>
